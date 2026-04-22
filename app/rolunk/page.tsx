@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
+import { PageHero } from '@/components/page-hero'
 import { cn } from '@/lib/utils'
 
 type FormState = 'idle' | 'loading' | 'success' | 'error'
