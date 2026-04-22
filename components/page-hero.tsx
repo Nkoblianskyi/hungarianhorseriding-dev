@@ -43,7 +43,7 @@ export function PageHero({ label, title, image, imageAlt, subtitle, date }: Page
 
         {/* Optional subtitle */}
         {subtitle && (
-          <p className="text-white/55 font-sans font-light text-[14px] leading-relaxed mt-5 max-w-xl">
+          <p className="text-white/85 font-sans font-light text-[14px] leading-relaxed mt-5 max-w-xl drop-shadow-[0_1px_8px_rgba(0,0,0,0.35)]">
             {subtitle}
           </p>
         )}

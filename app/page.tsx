@@ -82,7 +82,7 @@ export default function HomePage() {
 
           {/* Top row: label sits top-left, scroll hint top-right */}
           <div className="flex items-start justify-between pt-[110px] lg:pt-[120px]">
-            <p className="text-[--accent] text-[9px] tracking-[0.35em] uppercase font-sans font-semibold">
+            <p className="text-white/95 text-[9px] tracking-[0.35em] uppercase font-sans font-semibold drop-shadow-[0_1px_12px_rgba(0,0,0,0.55)]">
               Magyar lovas hagyományok
             </p>
             <p className="hidden lg:block text-white/30 text-[9px] tracking-[0.25em] uppercase font-sans self-end mt-1">
